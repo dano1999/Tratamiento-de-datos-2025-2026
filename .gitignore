@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.ipynb_checkpoints
+
+# Entornos virtuales
+venv/
+.env/
+.env*/
+.venv*/
+
+# Datos pesados (pon aquí si quieres ignorar ciertos ficheros)
+data/*.zip
+data/*.tar
+data/raw/
+data/tmp/
+
+# Modelos entrenados
+models/
+*.pt
+*.bin
+
+# VSCode / IDEs
+.vscode/
+.idea/
