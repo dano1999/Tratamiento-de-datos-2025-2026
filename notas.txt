@@ -1,0 +1,15 @@
+Crear entorno e instalar dependiencias
+
+python -m venv venv
+source venv/bin/activate  # En Windows: venv\Scripts\activate
+pip install -r requirements.txt
+
+Entrenar Modelos
+# Entrenar modelos clásicos (TF-IDF + Logistic Regression, etc.)
+python scripts/train_baselines.py
+
+# Entrenar red neuronal en PyTorch
+python scripts/train_pytorch.py
+
+# Fine-tuning de Transformer con Hugging Face
+python scripts/train_transformer.py
